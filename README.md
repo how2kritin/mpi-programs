@@ -18,7 +18,7 @@ Kindly ensure that `mpich` and `build-essential` packages are installed, if on a
 
 ## Instructions to run
 
-Compile each program using `mpic++ <source_file>` to create a `a.out` executable. 
+Compile each program using `mpic++ <source_file>` to create an `a.out` executable. 
 Now, you can run this executable directly and provide it an input of the correct input format, as specified under the respective algorithm's section in this README.  
 
 Alternatively, uncomment the commented lines of code in the source files that correspond to timing the algorithm, recompile the program and run the corresponding `runner.sh` script to run the program on different number of processes, from 1 to 12, on the input provided in `inp_file.txt` (you can change these parameters in the `runner.sh` script). This script generates an output in JSON format for easy visualisation.
@@ -28,6 +28,9 @@ Use the `testcase_gen.py` script to generate testcases for each of the problems.
 
 ## Prefix Sum
 Please find the source code at [prefix_sum.cpp](Prefix%20Sum/prefix_sum.cpp).
+
+![performance_scaling.png](Prefix%20Sum/performance_scaling.png)  
+For `N=1000000` randomly generated floating point numbers.
 
 ### Input Format
 * The first line contains `N`, i.e., the number of elements there are.
@@ -42,6 +45,9 @@ For additional details regarding implementation and time complexity, please refe
 
 ## Matrix Inversion
 Please find the source code at [matrix_inversion.cpp](Matrix%20Inversion/matrix_inversion.cpp).
+
+![performance_scaling.png](Matrix%20Inversion/performance_scaling.png)  
+For `N = 1000`, i.e., a `1000 x 1000` square matrix.
 
 ### Input Format
 * The first line contains `N`, i.e., the size of the `N x N` square matrix.
@@ -59,6 +65,9 @@ For additional details regarding implementation and time complexity, please refe
 
 ## Matrix Chain Multiplication
 Please find the source code at [mcc.cpp](Matrix%20Chain%20Multiplication/mcc.cpp).
+
+![performance_scaling.png](Matrix%20Chain%20Multiplication/performance_scaling.png)  
+For `N = 3000`, where each matrix is `1000 x 1000`.
 
 ### Input Format
 * The first line contains `N`, i.e., the number of matrices in the chain.
