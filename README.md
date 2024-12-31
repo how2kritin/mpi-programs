@@ -36,7 +36,7 @@ Please find the source code at [prefix_sum.cpp](Prefix%20Sum/prefix_sum.cpp).
 ### Output Format
 * A single line containing `N` space-separated floating point numbers, where the `i`th element is the prefix sum of the first `i` elements.
 
-For additional details regarding implementation and time complexity, please refer to [the report.](Prefix%20Sum/Report.pdf).
+For additional details regarding implementation and time complexity, please refer to [the report](Prefix%20Sum/Report.pdf).
 
 ---
 
@@ -53,7 +53,7 @@ Please find the source code at [matrix_inversion.cpp](Matrix%20Inversion/matrix_
 ### Note
 A checker script, `checker.py` has been provided (requires `numpy`) to compute the inverse of the matrix present in `inp_file.txt`. Use this before running `runner.sh` to create the ground truth result.
 
-For additional details regarding implementation and time complexity, please refer to [the report.](Matrix%20Inversion/Report.pdf).
+For additional details regarding implementation and time complexity, please refer to [the report](Matrix%20Inversion/Report.pdf).
 
 ---
 
@@ -67,6 +67,6 @@ Please find the source code at [mcc.cpp](Matrix%20Chain%20Multiplication/mcc.cpp
 ### Output Format
 * A single integer representing the minimum number of scalar multiplications required to multiply the entire matrix chain.
 
-For additional details regarding implementation and time complexity, please refer to [the report.](Matrix%20Chain%20Multiplication/Report.pdf).
+For additional details regarding implementation and time complexity, please refer to [the report](Matrix%20Chain%20Multiplication/Report.pdf).
 
 ---
